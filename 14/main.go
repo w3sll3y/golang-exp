@@ -50,5 +50,6 @@ func main() {
 	// wesley.Endereco.Logadouro = "Altos"
 	// fmt.Println(wesley.Ativo)
 	Desativacao(minhaEmpresa)
+	Desativacao(wesley)
 
 }
