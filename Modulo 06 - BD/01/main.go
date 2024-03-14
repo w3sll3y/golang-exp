@@ -22,7 +22,7 @@ func NewProduct(name string, price float64) *Product {
 }
 
 func main() {
-	db, err := sql.Open("mysql", "root:admin@/goexpert")
+	db, err := sql.Open("mysql", "root:password@/goexpert")
 	if err != nil {
 		panic(err)
 	}
